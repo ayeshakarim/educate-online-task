@@ -1,7 +1,7 @@
 # Educate Online, Assessment
 
 
-## Task 1 - Elegant code
+## Task 1 - Elegant code - sortObjectsByProperties
 
 > For this task I have put forth a multi-level sorting funtion that I created as  part of a larger project consisting of an analytics dashboard. One of the aims of the sort function was that it should be completley generic so as to be used by multiple components within the dashboard. Each of the components would have had unique object values and all object variables were always expected to be either string or number values.
 
@@ -13,11 +13,11 @@ I find this code to be elegant due to following reasons:
 
  
 
-## Task 2 - Sort list unit tests
+## Task 2 - Sort array unit test - sortStrings
 
-> I have written a set of tests for the 'SortStrings' function checks that the function returns a sorted array without modifying the original array. It also checks that the function can handle an empty array, a single element array, duplicate values in the array, a pre-sorted array, and text casing to ensure the function behaves correctly in all cases including edge cases.
->
-> To complete this task I used Jest Testing Framework as it is a common and easy to understand by non-developers due to the BDD testing style. More importantly, it is a framework I am very familiar with and so found I naturally gravitated towards it. The test cases are fairly simple and self explanatory, utilising Jest's 'describe' and 'it' functions to define test suites and test cases.
+I have written a set of tests for the 'SortStrings' function checks that the function returns a sorted array without modifying the original array. It also checks that the function can handle an empty array, a single element array, duplicate values in the array, a pre-sorted array, and text casing to ensure the function behaves correctly in all cases including edge cases.
+
+To complete this task I used Jest Testing Framework as it is a common and easy to understand by non-developers due to the BDD testing style. More importantly, it is a framework I am very familiar with and so found I naturally gravitated towards it. The test cases are fairly simple and self explanatory, utilising Jest's 'describe' and 'it' functions to define test suites and test cases.
 The test is an example of a unit test, which checks the behavior of my function while being focused, and fast-running. As a result I have chosen to use hard-coded expected values in the assertions to check the actual output of the function. This also allows the tests to be performed in isolation,as it does not depend on external systems or resources such as databases, web services ect.
 
 
